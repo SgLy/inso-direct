@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Inso direct",
+  "description": "Download beatmap with inso directly from osu official website",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://osu.ppy.sh/beatmapsets"
+      ],
+      "js": [
+        "js/jQuery.min.js",
+        "content_script.js"
+      ]
+    }
+  ]
+}
