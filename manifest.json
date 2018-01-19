@@ -15,7 +15,22 @@
       ],
       "js": [
         "js/jQuery.min.js",
-        "content_script.js"
+        "new.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://osu.ppy.sh/p/*"
+      ],
+      "ininclude_globs": [
+        "*/beatmaplist*"
+      ],
+      "js": [
+        "js/jQuery.min.js",
+        "old.js"
+      ],
+      "css": [
+        "css/old.css"
       ]
     }
   ]
