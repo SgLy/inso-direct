@@ -14,7 +14,7 @@
         "https://osu.ppy.sh/beatmapsets"
       ],
       "js": [
-        "js/jQuery.min.js",
+        "js/jquery.min.js",
         "new.js"
       ]
     },
@@ -26,7 +26,7 @@
         "*/beatmaplist*"
       ],
       "js": [
-        "js/jQuery.min.js",
+        "js/jquery.min.js",
         "old.js"
       ],
       "css": [
