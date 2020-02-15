@@ -14,7 +14,6 @@
         "https://osu.ppy.sh/beatmapsets"
       ],
       "js": [
-        "js/jquery.min.js",
         "new.js"
       ]
     },
@@ -22,7 +21,7 @@
       "matches": [
         "https://osu.ppy.sh/p/*"
       ],
-      "ininclude_globs": [
+      "include_globs": [
         "*/beatmaplist*"
       ],
       "js": [
